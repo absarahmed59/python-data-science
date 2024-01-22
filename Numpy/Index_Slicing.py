@@ -21,3 +21,7 @@ print(heights_arr_slice_start)
 # slicing from end
 heights_arr_slice_end = heights_arr[-5:]
 print(heights_arr_slice_end)
+
+# slice stepping
+heights_arr_slice_stepping = heights_arr[1:7:2]
+print(heights_arr_slice_stepping)
